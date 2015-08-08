@@ -4,9 +4,9 @@
 
 - 接口地址：/api/v1/account/register
 - 接口形式：POST
-- 输入参数：username, password
+- 输入参数：username, password(需要md5加密后传递)
 - 输出参数：code, message
-- curl调用示例：curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"username":"jerry", "password":"test"}' http://ihotcat.com/api/v1/account/register
+- curl调用示例：curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"username":"jerry", "password":"cc03e747a6afbbcbf8be7668acfebee5"}' http://ihotcat.com/api/v1/account/register
 
 *Status Code* | *Description*
 :------------ | :------------
