@@ -10,7 +10,7 @@
 
 *Status Code* | *Description*
 :------------ | :------------
-201 | 注册成功后返回201与 Location Header，并返回token，且用户是已登录状态
+201 | 注册成功后返回201与 Location Header，并返回token，且用户是已登录状态。
 400 | 发生错误后返回400
 
 -
