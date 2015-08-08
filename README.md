@@ -1,2 +1,2 @@
 # hotcat-api
-热猫API文档
+热猫API文档 v1
